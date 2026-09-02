@@ -1,7 +1,7 @@
-# PRA2003-Monitoring bacterial movement and populations 
+# PRA2003 - Monitoring bacterial movement and populations 
+Abril Caro Picas - i6375969
 
-
-## Questions to be answered 
+## Biology questions to be answered 
 
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
