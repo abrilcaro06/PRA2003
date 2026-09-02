@@ -1,9 +1,10 @@
-# PRA2003
+# PRA2003 - Monitoring bacterial movement and populations 
 
-## Questions to be answered
 
-What are the average counts of each bacterial strain and their statistical uncertainties?
+## Questions to be answered 
 
-Is there any asymmetry between the normal and the mutant strain?
+1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
-Is there any asymmetry as a function of their momentum?
+2. Is there any asymmetry between the normal and the mutant strain?
+
+3. Is there any asymmetry as a function of their momentum?
