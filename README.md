@@ -1,4 +1,4 @@
-# PRA2003 - Monitoring bacterial movement and populations 
+# PRA2003-Monitoring bacterial movement and populations 
 
 
 ## Questions to be answered 
