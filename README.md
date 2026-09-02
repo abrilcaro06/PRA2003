@@ -1,6 +1,6 @@
 # PRA2003
 
-# Questions to be answered
+## Questions to be answered
 
 What are the average counts of each bacterial strain and their statistical uncertainties?
 
