@@ -17,7 +17,7 @@ Each file contains 4 columns, in which the last column states the bacteria ID. F
 
 | Bacteria name | ID |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| E. coli WT (wild type) | Content Cell  |
 | Content Cell  | Content Cell  |
 
 Once the data is processed, the code will give values for the total events processed, bacteria with IDs that do not match the 12 strains and are therefore ignored, and the invalid data lines. 
