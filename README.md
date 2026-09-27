@@ -32,4 +32,25 @@ Once the data is processed, the code will give values for the total events proce
 
 Out of the data that is processed, the code organizes the values to show the total count, averages, and uncertainties of the bacteria in each specific strain.
 
-The code is then run for the 10 different output sets, to give averages and uncertainty values for each bacteria ID, for each set. 
+The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacteria strand
+
+# Results of averages and uncertainties
+For each of the data sets, the uncertainties were written down. All of the values were rounded to the 2nd decimal points.
+| Bacteria ID | Total Average    | Total uncertainty   |
+| :-----: | :---: | :---: |
+| 211 | 19.95   | 6.57 x 10^-3   |
+| -211 | 19.92   | 6.57 x 10^-3   |
+| 321 | 2.51   | 2.33 x 10^-3   |
+| -321 | 2.50   | 2.33 x 10^-3   |
+| 2212 | 1.21   | 1.62 x 10^-3   |
+| -2212 | 1.18   | 1.60 x 10^-3   |
+| 3122 | 0.28   | 7.74 x 10^-4   |
+| -3122  | 0.27   | 7.68 x 10^-4    |
+| 3312 | 0.04   | 2.92 x 10^-4   |
+| -3312 | 0.04   | 2.91 x 10^-4   |
+| 3334 | 0.00117   | 5.09 x 10^-5  |
+| -3334 | 0.00113   | 5.03 x 10^-5   |
+
+  #+/-3334 not rounded to 2nd decimall (too small number)
+
+
