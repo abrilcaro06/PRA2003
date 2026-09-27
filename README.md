@@ -15,10 +15,18 @@ To analyze the data, we are using 10 separate files that include data for the ba
 
 Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis the bacterias which are going to be focused on are: 
 
-| Bacteria name | ID |
-| ------------- | ------------- |
-| E. coli WT (wild type) | Content Cell  |
-| Content Cell  | Content Cell  |
+| Bacteria name                               | ID      |
+| ------------------------------------------  | ------- |
+| E. coli WT                                  | 211     |
+| E. coli mutant                              | -211    |
+| Bacillus subtilis WT                        | 321     |
+| Bacillus subtilis mutant                    | -321    |
+| Pseudomonas aeruginosa WT                   | 2212    |
+| Pseudomonas aeruginosa antibiotic-resistant | -2212   |
+| Streptococcus pneumoniaet                   | 3122    |
+|Capsule-deficient streptococcus pneumoniae   | -3122   |
+| Salmonella enteric                          | 3334    |
+| Salmonella mutant                           | -3334   |
 
 Once the data is processed, the code will give values for the total events processed, bacteria with IDs that do not match the 12 strains and are therefore ignored, and the invalid data lines. 
 
