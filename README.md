@@ -11,9 +11,17 @@ Abril Caro Picas - i6375969
 
 
 # Code installation
-To collect the data, we are using 10 separate files that include data for the bacterial strains. 
+To analyze the data, we are using 10 separate files that include data for the bacterial strains. All of these files were downloaded to be ready for use. 
 
-All of the files will be read to give values for the total events processed, bacteria with IDs that dont match the 12 strains (which are later ignored), and the invalid lines.
+Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis the bacterias which are going to be focused on are: 
+
+| Bacteria name | ID |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+Once the data is processed, the code will give values for the total events processed, bacteria with IDs that do not match the 12 strains and are therefore ignored, and the invalid data lines. 
+
 Out of the data that is processed, the code organizes the values to show the total count, averages, and uncertainties of the bacteria in each specific strain.
 
 The code is then run for the 10 different output sets, to give averages and uncertainty values for each bacteria ID, for each set. 
