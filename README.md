@@ -34,6 +34,12 @@ Out of the data that is processed, the code organizes the values to show the tot
 
 The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacteria strain
 
+## Code used
+The code that was used to analyze all of the output sets is shown in the repository as "Deliverable3.R". 
+The file name was switched in the code when doing separate files, and then re-run for each of the 10 data sets.
+Once the values were gathered, I manually added them into a Google Sheet so I could visualize the results in tables. 
+The link for the Google Sheet can be found here: https://docs.google.com/spreadsheets/d/1M1eYmuaDnKOEvihmmviTgG9ciG0y3ECd0DlT6uIRdLk/edit?usp=sharing
+
 # Results of averages and uncertainties
 For each of the data sets, the uncertainties were written down. All of the values were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334 as those values are too small to round and would give a value of 0.
 
