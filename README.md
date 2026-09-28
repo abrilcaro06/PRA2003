@@ -32,10 +32,11 @@ Once the data is processed, the code will give values for the total events proce
 
 Out of the data that is processed, the code organizes the values to show the total count, averages, and uncertainties of the bacteria in each specific strain.
 
-The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacteria strand
+The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacteria strain
 
 # Results of averages and uncertainties
-For each of the data sets, the uncertainties were written down. All of the values were rounded to the 2nd decimal points.
+For each of the data sets, the uncertainties were written down. All of the values were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334 as those values are too small to round and would give a value of 0.
+
 | Bacteria ID | Total Average    | Total uncertainty   |
 | :-----: | :---: | :---: |
 | 211 | 19.95   | 6.57 x 10^-3   |
@@ -51,6 +52,7 @@ For each of the data sets, the uncertainties were written down. All of the value
 | 3334 | 0.00117   | 5.09 x 10^-5  |
 | -3334 | 0.00113   | 5.03 x 10^-5   |
 
-  #+/-3334 not rounded to 2nd decimall (too small number)
+When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
+
 
 
