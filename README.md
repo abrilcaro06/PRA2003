@@ -60,5 +60,19 @@ For each of the data sets, the uncertainties were written down. All of the value
 
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
+# Results for asymmetry
+To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
+To do so I will be using the z-score, which has the following formula:
+z = (mean1 - mean2) / sqr(std1^2 + std2^2)
+
+
+| Bacteria ID pairs | z-score    | Total uncertainty   |
+| :-----: | :---: | :---: |
+| 211 / -211 | 19.95   | 6.57 x 10^-3   |
+| 321 / -321 | 19.92   | 6.57 x 10^-3   |
+| 2212 / -2212 | 2.51   | 2.33 x 10^-3   |
+| 3122 / -3122 | 2.50   | 2.33 x 10^-3   |
+| 3312 / -3312  | 1.21   | 1.62 x 10^-3   |
+| 3334 / -3334  | 1.18   | 1.60 x 10^-3   |
 
 
