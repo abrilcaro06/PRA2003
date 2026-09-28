@@ -68,11 +68,11 @@ z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 
 | Bacteria ID pairs | z-score    | Total uncertainty   |
 | :-----: | :---: | :---: |
-| 211 / -211 | 19.95   | 6.57 x 10^-3   |
-| 321 / -321 | 19.92   | 6.57 x 10^-3   |
-| 2212 / -2212 | 2.51   | 2.33 x 10^-3   |
-| 3122 / -3122 | 2.50   | 2.33 x 10^-3   |
-| 3312 / -3312  | 1.21   | 1.62 x 10^-3   |
-| 3334 / -3334  | 1.18   | 1.60 x 10^-3   |
+| 211 / -211 | 3.34   | Evidence of asymmetry   |
+| 321 / -321 | 1.82   | Weak evidence of asymmetry  |
+| 2212 / -2212 | 11.86   | Evidence of asymmetry   |
+| 3122 / -3122 | 8.25   |  Evidence of asymmetry  |
+| 3312 / -3312  | 0   | No evidence of asymmetry   |
+| 3334 / -3334  | 0.56   | No evidence of asymmetry   |
 
 
