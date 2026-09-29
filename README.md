@@ -74,4 +74,7 @@ z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 | 3312 / -3312  | 0.00   | No   |
 | 3334 / -3334  | 0.00004   | No   |
 
+The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, as they have high values of asymmetry, whilst the others had a z-score lower than 1.96, showing they are not statistically significant and are considered symmetric. 
+Values greater than 1.96 are shown to be statistically significant, as the range within 95% falls within +/- 1.96.
+
 
