@@ -54,10 +54,22 @@ For each of the data sets, the uncertainties were written down. The values for t
 | -3122  |  1,254,690  | 0.270    | +/- 0.000985   |
 | 3312 |  182,139  | 0.040   | +/- 0.000284   |
 | -3312 |  180,104  | 0.040   | +/- 0.000402   |
-| 3334 |  5,482  | 0.00117  | +/- 0.0000417   |
-| -3334 |  5,312  | 0.00113   | +/- 0.0000508   |
+| 3334 |  5,482  | 0.00117  | +/- 4.17 x10^-5    |
+| -3334 |  5,312  | 0.00113   | +/- 5.08 x10^-5    |
 
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
+
+
+| Bacteria pairs                               | The difference between the means      |
+| ------------------------------------------  | ------- |
+| 211 / -211                                  | 0.031     |
+| 321 / -321                              | 0.006    |
+| 2212 / -2212                        | 0.027     |
+| 3122 / -3122                    | 0.009    |
+| 3312 / -3312                   | 0    |
+| 3334 / -3334              | 0.000040   |
+
+
 
 # Results for asymmetry
 To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
@@ -74,7 +86,7 @@ z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 | 3312 / -3312  | 0.00   | No   |
 | 3334 / -3334  | 0.00004   | No   |
 
-The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, and as seen they have very high z-scores in comparison to the others, which have scores lower than 1.96. These low scores show that they are not statistically significant and are considered symmetric. 
+The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, and as seen, they have very high z-scores in comparison to the others, which have scores lower than 1.96. These low scores show that they are not statistically significant and are considered symmetric. 
 Values greater than 1.96 are shown to be statistically significant, as the range within 95% falls within +/- 1.96.
 
 
