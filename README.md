@@ -40,20 +40,20 @@ The file name was switched in the code when doing separate files, and then re-ru
 Once the values were gathered, I manually added them into a Google Sheet so I could visualize the results in tables. 
 
 # Results of averages and uncertainties
-For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
+For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the third decimal place, except the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
 
 | Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
 | :-----: | :---: | :---: | :---: |
-| 211 |  92,126,688  | 19.95   | +/- 0.0327   |
-| -211 |   91,977,542 | 19.92   | +/- 0.0319   |
-| 321 |  11,587,227  | 2.51   | +/-0.00477   |
-| -321 |  11,560,946  | 2.50   | +/- 0.00550   |
-| 2212 |  5,578,693  | 1.21   | +/- 0.00190   |
-| -2212 |  5,468,447  | 1.18   | +/- 0.00241   |
-| 3122 |  1,277,330  | 0.28   | +/- 0.00107  |
-| -3122  |  1,254,690  | 0.27    | +/- 0.000985   |
-| 3312 |  182,139  | 0.04   | +/- 0.000284   |
-| -3312 |  180,104  | 0.04   | +/- 0.000402   |
+| 211 |  92,126,688  | 19.954   | +/- 0.0327   |
+| -211 |   91,977,542 | 19.923   | +/- 0.0319   |
+| 321 |  11,587,227  | 2.509   | +/-0.00477   |
+| -321 |  11,560,946  | 2.503   | +/- 0.00550   |
+| 2212 |  5,578,693  | 1.210   | +/- 0.00190   |
+| -2212 |  5,468,447  | 1.183   | +/- 0.00241   |
+| 3122 |  1,277,330  | 0.279   | +/- 0.00107  |
+| -3122  |  1,254,690  | 0.270    | +/- 0.000985   |
+| 3312 |  182,139  | 0.040   | +/- 0.000284   |
+| -3312 |  180,104  | 0.040   | +/- 0.000402   |
 | 3334 |  5,482  | 0.00117  | +/- 0.0000417   |
 | -3334 |  5,312  | 0.00113   | +/- 0.0000508   |
 
@@ -80,13 +80,14 @@ Values greater than 1.96 are shown to be statistically significant, as the range
 
 ## Calculating based on 3 sigma 
 
-| Pair | Difference | Combined σ | 3σ threshold | z | 3σ result |
-|---|---:|---:|---:|---:|---| 
-| 211 / −211 | 0.03000 | 0.04568 | 0.13705 | 0.657 | Within 3σ |
-| 321 / −321 | 0.01000 | 0.007280 | 0.02184 | 1.374 | Within 3σ |
-| 2212 / −2212 | 0.03000 | 0.003069 | 0.009207 | 9.776 | Above 3σ |
-| 3122 / −3122 | 0.01000 | 0.001454 | 0.004363 | 6.876 | Above 3σ |
+Here is the table including all the bacterial strain pairs, their differences, the combined sigma, and comparison with their corresponding 3 sigma. 
+
+| Pair | Difference between means | Combined σ | 3σ threshold | z | 3σ result |
+|---|---:|---:|---:|---:|---|
+| 211 / −211 | 0.031 | 0.04568 | 0.13705 | 0.657 | Within 3σ |
+| 321 / −321 | 0.006 | 0.007280 | 0.02184 | 1.374 | Within 3σ |
+| 2212 / −2212 | 0.027 | 0.003069 | 0.009207 | 9.776 | Above 3σ |
+| 3122 / −3122 | 0.009 | 0.001454 | 0.004363 | 6.876 | Above 3σ |
 | 3312 / −3312 | 0 | 0.0004922 | 0.001477 | 0.000 | Within 3σ |
 | 3334 / −3334 | 0.000040 | 0.00006572 | 0.0001972 | 0.609 | Within 3σ |
-
 
