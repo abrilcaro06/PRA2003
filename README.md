@@ -13,7 +13,7 @@ Abril Caro Picas - i6375969
 # Code installation
 To analyze the data, we are using 10 separate files that include data for the bacterial strains. All of these files were downloaded to be ready for use. 
 
-Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis, the bacterias which are going to be focused on are: 
+Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis, the bacteria that are going to be focused on are: 
 
 | Bacteria name                               | ID      |
 | ------------------------------------------  | ------- |
@@ -40,7 +40,7 @@ The file name was switched in the code when doing separate files, and then re-ru
 Once the values were gathered, I manually added them into a Google Sheet so I could visualize the results in tables. 
 
 # Results of averages and uncertainties
-For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the third decimal place, except the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
+For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the third decimal place, except for the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
 
 | Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
 | :-----: | :---: | :---: | :---: |
@@ -60,14 +60,20 @@ For each of the data sets, the uncertainties were written down. The values for t
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
 
-| Bacteria pairs                               | The difference between the means      |
-| ------------------------------------------  | ------- |
-| 211 / -211                                  | 0.031     |
-| 321 / -321                              | 0.006    |
-| 2212 / -2212                        | 0.027     |
-| 3122 / -3122                    | 0.009    |
-| 3312 / -3312                   | 0    |
-| 3334 / -3334              | 0.000040   |
+The difference of the averages between the different strands was then calculated.
+
+| Bacteria pairs     | The difference between the means     |
+| -------------------------------------------- | ---------- |
+| 211 / -211                                   | 0.032296   |
+| 321 / -321                                   | 0.005687   |
+| 2212 / -2212                                 | 0.023873   |
+| 3122 / -3122                                 | 0.004563   |
+| 3312 / -3312                                 | 0.000441   |
+| 3334 / -3334                                 | 0.000036   |
+
+
+
+
 
 
 
@@ -89,7 +95,6 @@ z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, and as seen, they have very high z-scores in comparison to the others, which have scores lower than 1.96. These low scores show that they are not statistically significant and are considered symmetric. 
 Values greater than 1.96 are shown to be statistically significant, as the range within 95% falls within +/- 1.96.
 
-
 ## Calculating based on 3 sigma 
 
 Here is the table including all the bacterial strain pairs, their differences, the combined sigma, and comparison with their corresponding 3 sigma. 
@@ -102,4 +107,18 @@ Here is the table including all the bacterial strain pairs, their differences, t
 | 3122 / −3122 | 0.009 | 0.001454 | 0.004363 | 6.876 | Above 3σ |
 | 3312 / −3312 | 0 | 0.0004922 | 0.001477 | 0.000 | Within 3σ |
 | 3334 / −3334 | 0.000040 | 0.00006572 | 0.0001972 | 0.00004| Within 3σ |
+
+Explanation of working out for pair 211/-211
+211 -> 19.954 +/- 0.0327
+-211 -> 19.923 +/- 0.0319
+
+Difference = 19.954-19.923 = 0.031
+
+σ= sqrt(0.0327^2 + 0.0319^2)
+σ = 0.04583
+
+3σ = 3 x 0.04583 = 0.137048
+
+Comparing 0.031 < 0.137048, the difference is within the threshold.
+	​
 
