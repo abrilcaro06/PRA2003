@@ -43,20 +43,20 @@ The link for the Google Sheet can be found here: https://docs.google.com/spreads
 # Results of averages and uncertainties
 For each of the data sets, the uncertainties were written down. All of the values were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334 as those values are too small to round and would give a value of 0.
 
-| Bacteria ID | Total Average    | Total uncertainty   |
-| :-----: | :---: | :---: |
-| 211 | 19.95   | 6.57 x 10^-3   |
-| -211 | 19.92   | 6.57 x 10^-3   |
-| 321 | 2.51   | 2.33 x 10^-3   |
-| -321 | 2.50   | 2.33 x 10^-3   |
-| 2212 | 1.21   | 1.62 x 10^-3   |
-| -2212 | 1.18   | 1.60 x 10^-3   |
-| 3122 | 0.28   | 7.74 x 10^-4   |
-| -3122  | 0.27   | 7.68 x 10^-4    |
-| 3312 | 0.04   | 2.92 x 10^-4   |
-| -3312 | 0.04   | 2.91 x 10^-4   |
-| 3334 | 0.00117   | 5.09 x 10^-5  |
-| -3334 | 0.00113   | 5.03 x 10^-5   |
+| Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
+| :-----: | :---: | :---: | :---: |
+| 211 |  92,126,688  | 19.95   | 6.57 x 10^-3   |
+| -211 |   91,977,542 | 19.92   | 6.57 x 10^-3   |
+| 321 |  11,587,227  | 2.51   | 6.57 x 10^-3   |
+| -321 |  11,560,946  | 2.50   | 6.57 x 10^-3   |
+| 2212 |  5,578,693  | 1.21   | 6.57 x 10^-3   |
+| -2212 |  5,468,447  | 1.18   | 6.57 x 10^-3   |
+| 3122 |  1,277,330  | 0.28   | 6.57 x 10^-3   |
+| -3122  |  1,254,690  | 0.27    | 6.57 x 10^-3   |
+| 3312 |  182,139  | 0.04   | 6.57 x 10^-3   |
+| -3312 |  180,104  | 0.04   | 6.57 x 10^-3   |
+| 3334 |  5,482  | 0.00117  | 6.57 x 10^-3   |
+| -3334 |  5,312  | 0.00113   | 6.57 x 10^-3   |
 
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
