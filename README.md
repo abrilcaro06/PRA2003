@@ -65,13 +65,13 @@ To do so I will be using the z-score, which has the following formula:
 z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 
 
-| Bacteria ID pairs | z-score    | Total uncertainty   |
+| Bacteria ID pairs | z-score    | Asymmetry?   |
 | :-----: | :---: | :---: |
-| 211 / -211 | 3.34   | Evidence of asymmetry   |
-| 321 / -321 | 1.82   | Weak evidence of asymmetry  |
-| 2212 / -2212 | 11.86   | Evidence of asymmetry   |
-| 3122 / -3122 | 8.25   |  Evidence of asymmetry  |
-| 3312 / -3312  | 0   | No evidence of asymmetry   |
-| 3334 / -3334  | 0.56   | No evidence of asymmetry   |
+| 211 / -211 | 0.657   | No   |
+| 321 / -321 | 1.374   | No  |
+| 2212 / -2212 | 9.776   | Yes   |
+| 3122 / -3122 | 6.876   |  Yes  |
+| 3312 / -3312  | 0.00   | No   |
+| 3334 / -3334  | 0.00004   | No   |
 
 
