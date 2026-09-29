@@ -13,7 +13,7 @@ Abril Caro Picas - i6375969
 # Code installation
 To analyze the data, we are using 10 separate files that include data for the bacterial strains. All of these files were downloaded to be ready for use. 
 
-Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis the bacterias which are going to be focused on are: 
+Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis, the bacterias which are going to be focused on are: 
 
 | Bacteria name                               | ID      |
 | ------------------------------------------  | ------- |
@@ -32,7 +32,7 @@ Once the data is processed, the code will give values for the total events proce
 
 Out of the data that is processed, the code organizes the values to show the total count, averages, and uncertainties of the bacteria in each specific strain.
 
-The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacteria strain
+The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacterial strain.
 
 ## Code used
 The code that was used to analyze all of the output sets is shown in the repository as "Deliverable3.R". 
@@ -40,7 +40,7 @@ The file name was switched in the code when doing separate files, and then re-ru
 Once the values were gathered, I manually added them into a Google Sheet so I could visualize the results in tables. 
 
 # Results of averages and uncertainties
-For each of the data sets, the uncertainties were written down. All of the values were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334 as those values are too small to round and would give a value of 0.
+For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
 
 | Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
 | :-----: | :---: | :---: | :---: |
@@ -61,7 +61,7 @@ When comparing the values for the bacterial strains that are wild type versus mu
 
 # Results for asymmetry
 To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
-To do so I will be using the z-score, which has the following formula:
+To do so, I will be using the z-score, which has the following formula:
 z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 
 
@@ -74,7 +74,19 @@ z = (mean1 - mean2) / sqr(std1^2 + std2^2)
 | 3312 / -3312  | 0.00   | No   |
 | 3334 / -3334  | 0.00004   | No   |
 
-The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, as they have high values of asymmetry, whilst the others had a z-score lower than 1.96, showing they are not statistically significant and are considered symmetric. 
+The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, and as seen they have very high z-scores in comparison to the others, which have scores lower than 1.96. These low scores show that they are not statistically significant and are considered symmetric. 
 Values greater than 1.96 are shown to be statistically significant, as the range within 95% falls within +/- 1.96.
+
+
+## Calculating based on 3 sigma 
+
+| Pair | Difference | Combined σ | 3σ threshold | z | 3σ result |
+|---|---:|---:|---:|---:|---| 
+| 211 / −211 | 0.03000 | 0.04568 | 0.13705 | 0.657 | Within 3σ |
+| 321 / −321 | 0.01000 | 0.007280 | 0.02184 | 1.374 | Within 3σ |
+| 2212 / −2212 | 0.03000 | 0.003069 | 0.009207 | 9.776 | Above 3σ |
+| 3122 / −3122 | 0.01000 | 0.001454 | 0.004363 | 6.876 | Above 3σ |
+| 3312 / −3312 | 0 | 0.0004922 | 0.001477 | 0.000 | Within 3σ |
+| 3334 / −3334 | 0.000040 | 0.00006572 | 0.0001972 | 0.609 | Within 3σ |
 
 
