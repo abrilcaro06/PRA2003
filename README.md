@@ -38,25 +38,24 @@ The code is then run for the 10 different output sets to give averages and uncer
 The code that was used to analyze all of the output sets is shown in the repository as "Deliverable3.R". 
 The file name was switched in the code when doing separate files, and then re-run for each of the 10 data sets.
 Once the values were gathered, I manually added them into a Google Sheet so I could visualize the results in tables. 
-The link for the Google Sheet can be found here: https://docs.google.com/spreadsheets/d/1M1eYmuaDnKOEvihmmviTgG9ciG0y3ECd0DlT6uIRdLk/edit?usp=sharing
 
 # Results of averages and uncertainties
 For each of the data sets, the uncertainties were written down. All of the values were rounded to the second decimal place, except the values for bacteria ID 3334 and -3334 as those values are too small to round and would give a value of 0.
 
 | Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
 | :-----: | :---: | :---: | :---: |
-| 211 |  92,126,688  | 19.95   | 6.57 x 10^-3   |
-| -211 |   91,977,542 | 19.92   | 6.57 x 10^-3   |
-| 321 |  11,587,227  | 2.51   | 6.57 x 10^-3   |
-| -321 |  11,560,946  | 2.50   | 6.57 x 10^-3   |
-| 2212 |  5,578,693  | 1.21   | 6.57 x 10^-3   |
-| -2212 |  5,468,447  | 1.18   | 6.57 x 10^-3   |
-| 3122 |  1,277,330  | 0.28   | 6.57 x 10^-3   |
-| -3122  |  1,254,690  | 0.27    | 6.57 x 10^-3   |
-| 3312 |  182,139  | 0.04   | 6.57 x 10^-3   |
-| -3312 |  180,104  | 0.04   | 6.57 x 10^-3   |
-| 3334 |  5,482  | 0.00117  | 6.57 x 10^-3   |
-| -3334 |  5,312  | 0.00113   | 6.57 x 10^-3   |
+| 211 |  92,126,688  | 19.95   | +/- 0.0327   |
+| -211 |   91,977,542 | 19.92   | +/- 0.0319   |
+| 321 |  11,587,227  | 2.51   | +/-0.00477   |
+| -321 |  11,560,946  | 2.50   | +/- 0.00550   |
+| 2212 |  5,578,693  | 1.21   | +/- 0.00190   |
+| -2212 |  5,468,447  | 1.18   | +/- 0.00241   |
+| 3122 |  1,277,330  | 0.28   | +/- 0.00107  |
+| -3122  |  1,254,690  | 0.27    | +/- 0.000985   |
+| 3312 |  182,139  | 0.04   | +/- 0.000284   |
+| -3312 |  180,104  | 0.04   | +/- 0.000402   |
+| 3334 |  5,482  | 0.00117  | +/- 0.0000417   |
+| -3334 |  5,312  | 0.00113   | +/- 0.0000508   |
 
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
