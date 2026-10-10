@@ -84,6 +84,7 @@ $ Wild type - Mutant strain $
 # Results for asymmetry
 To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
 To do so, I will be using the z-score, which has the following formula:
+
 $$
 z = \frac{\text{mean}_1 - \text{mean}_2}{\sqrt{\text{std}_1^2 + \text{std}_2^2}}
 $$
