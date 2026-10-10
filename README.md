@@ -66,7 +66,7 @@ However, it is important to note that the full numbers were used for the continu
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
 The difference of the averages between the different strands was then calculated.
-\[Wild type - Mutant strain]\
+$ Wild type - Mutant strain $
 
 
 | Bacteria pairs     | The difference between the means     |
