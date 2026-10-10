@@ -80,7 +80,7 @@ The difference of the averages between the different strains was then calculated
 
 # Results for asymmetry
 To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
-To do so, different methods may be used.
+To do so, different methods may be used, either calculating asymmetry with a formula or finding the z-score. Yet both of them give resulting values to help answer the question.
 
 One of the formulas to calculate asymmetry is:
 
@@ -92,13 +92,18 @@ This asymmetry value can then be divided by the standard deviation to find the n
 
 
 <img width="589" height="372" alt="Screenshot 2026-10-10 at 11 49 25 AM" src="https://github.com/user-attachments/assets/8a6448fb-bc3a-4d92-8ab2-0fe6aa3fedfe" />
-Figure 1: Table including average count, standard deviation and uncertainty results for each strain 
+
+_Figure 1: Table including average count, standard deviation and uncertainty results for each strain_  
+
+The results were then further analyzed to give the difference value, the asymmetry, the significance with regard to sigma, and whether they were asymmetric or symmetric.
+
+<img width="737" height="270" alt="Screenshot 2026-10-10 at 12 29 29 PM" src="https://github.com/user-attachments/assets/cb81740a-e642-4eb6-b209-603fb9eec313" />
+_Figure 2: Overview of results including the difference, asymmetry values, significance, and the level of symmetry_  
+
+These values were all saved in the CSV file called "Combined.csv".
 
 
-
-
-
-I will be using the z-score, which has the following formula:
+Furthermore, the results may be calculated using the z-score calculation, which has the following formula:
 
 $$
 z = \frac{\text{mean}_1 - \text{mean}_2}{\sqrt{\text{std}_1^2 + \text{std}_2^2}}
@@ -160,6 +165,10 @@ Comparing $0.031 < 0.13704$, the difference is **within the threshold** (not sta
 To answer the third question of identifying whether the strains had asymmetry as a function of momentum, multiple calculations and visualizations had to be done. 
 
 Initially, all of the momenta had to be calculated. Each of the output sets that we were given contain lines that hold values for px, py, pz and the ID numbers. 
+
+$$
+p = \sqrt{px^2+py^2+pz^2}}
+$$
 
 
 To visualize the results, each bacterial pair was plotted in two graphs. 
