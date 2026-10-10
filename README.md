@@ -68,7 +68,7 @@ When comparing the values for the bacterial strains that are wild type versus mu
 The difference of the averages between the different strands was then calculated.
 
 $$
-Difference of averages = Wild type - mutant strain
+Difference_of_averages = Wild_type - mutant_strain
 $$
 
 
