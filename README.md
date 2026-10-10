@@ -116,13 +116,12 @@ Here is the table including all the bacterial strain pairs, their differences, t
 ### Working out example
 Explanation of working out for pair 211/-211:
 
-$$
+
 211 -> 19.954 +/- 0.0327
 -211 -> 19.923 +/- 0.0319
-$$
-$$
+
 Difference = 19.954-19.923 = 0.031
-$$
+
 σ= sqrt(0.0327^2 + 0.0319^2)
 σ = 0.04583
 
@@ -130,4 +129,27 @@ $$
 
 Comparing 0.031 < 0.137048, the difference is within the threshold.
 	​
+### Statistical Comparison
+
+* **Value for 211:** $19.954 \pm 0.0327$
+* **Value for -211:** $19.923 \pm 0.0319$
+
+#### 1. Difference Calculation
+$$
+\text{Difference} = 19.954 - 19.923 = 0.031
+$$
+
+#### 2. Standard Error of the Difference ($\sigma$)
+$$
+\sigma = \sqrt{0.0327^2 + 0.0319^2} = 0.04568
+$$
+
+#### 3. Threshold ($3\sigma$)
+$$
+3\sigma = 3 \times 0.04568 = 0.13704
+$$
+
+#### Conclusion
+Comparing $0.031 < 0.13704$, the difference is **within the threshold** (not statistically significant at the $3\sigma$ level).
+
 
