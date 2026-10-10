@@ -164,11 +164,27 @@ Comparing $0.031 < 0.13704$, the difference is **within the threshold** (not sta
 # Plotting of each bacterial strain pair - Week 6 
 To answer the third question of identifying whether the strains had asymmetry as a function of momentum, multiple calculations and visualizations had to be done. 
 
-Initially, all of the momenta had to be calculated. Each of the output sets that we were given contain lines that hold values for px, py, pz and the ID numbers. 
+Initially, all of the momenta had to be calculated. Each of the output sets that we were given contained lines that hold values for px, py, pz, and the ID numbers. 
 
 $$
-p = \sqrt{px^2+py^2+pz^2}}
+p = \sqrt{p_x^2 + p_y^2 + p_z^2}
 $$
+
+The bins would then have to be calculated for each specific pair. To correct the bin widths, the data had to be converted from frequency to density.
+
+$$
+density = \frequency/bin width
+$$
+
+The size of the bins was also related to the amount of bacteria in that bin. The more bacteria that was present meant that the bin would be narrower, whilst vise versa for fewer bacteria.
+The same asymmetry formula was used, whilst __ was also calculated.
+
+
+$$
+\frac{dN}{dP} = \frac{N}{\text{width} \times \text{event}}
+$$
+
+
 
 
 To visualize the results, each bacterial pair was plotted in two graphs. 
