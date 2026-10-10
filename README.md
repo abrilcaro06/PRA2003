@@ -80,7 +80,15 @@ The difference of the averages between the different strains was then calculated
 
 # Results for asymmetry
 To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
-To do so, I will be using the z-score, which has the following formula:
+To do so, different methods may be used.
+
+One of the formulas to calculate asymmetry is:
+
+$$
+A = \frac{N(\text{WT}) - N(\text{mutant})}{N(\text{WT}) + N(\text{mutant})}
+$$
+
+I will be using the z-score, which has the following formula:
 
 $$
 z = \frac{\text{mean}_1 - \text{mean}_2}{\sqrt{\text{std}_1^2 + \text{std}_2^2}}
@@ -116,19 +124,6 @@ Here is the table including all the bacterial strain pairs, their differences, t
 ### Working out example
 Explanation of working out for pair 211/-211:
 
-
-211 -> 19.954 +/- 0.0327
--211 -> 19.923 +/- 0.0319
-
-Difference = 19.954-19.923 = 0.031
-
-σ= sqrt(0.0327^2 + 0.0319^2)
-σ = 0.04583
-
-3σ = 3 x 0.04583 = 0.137048
-
-Comparing 0.031 < 0.137048, the difference is within the threshold.
-	​
 ### Statistical Comparison
 
 * **Value for 211:** $19.954 \pm 0.0327$
@@ -149,7 +144,17 @@ $$
 3\sigma = 3 \times 0.04568 = 0.13704
 $$
 
-#### Conclusion
 Comparing $0.031 < 0.13704$, the difference is **within the threshold** (not statistically significant at the $3\sigma$ level).
+
+# Plotting of each bacterial strain pair - Week 6 
+To answer the third question of identifying whether the strains had asymmetry as a function of momentum, multiple calculations and visualizations had to be done. 
+
+Initially, all of the momenta had to be calculated. Each of the output sets that we were given contain lines that hold values for px, py, pz and the ID numbers. 
+
+
+To visualize the results, each bacterial pair was plotted in two graphs. 
+The first graph expressing the __, whilst the second one plots_
+To read the results:
+
 
 
