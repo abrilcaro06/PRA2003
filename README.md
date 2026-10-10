@@ -88,6 +88,16 @@ $$
 A = \frac{N(\text{WT}) - N(\text{mutant})}{N(\text{WT}) + N(\text{mutant})}
 $$
 
+This asymmetry value can then be divided by the standard deviation to find the number of sigmas present. If the sigma value is above the 3-sigma threshold, it would be considered asymmetric. The figure below presents the values that were calculated 
+
+
+<img width="589" height="372" alt="Screenshot 2026-10-10 at 11 49 25 AM" src="https://github.com/user-attachments/assets/8a6448fb-bc3a-4d92-8ab2-0fe6aa3fedfe" />
+Figure 1: Table including average count, standard deviation and uncertainty results for each strain 
+
+
+
+
+
 I will be using the z-score, which has the following formula:
 
 $$
