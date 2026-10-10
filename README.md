@@ -65,11 +65,7 @@ However, it is important to note that the full numbers were used for the continu
 
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
-The difference of the averages between the different strands was then calculated.
-
-$$
-Difference_of_averages = Wild_type - mutant_strain
-$$
+The difference of the averages between the different strains was then calculated.
 
 
 | Bacteria pairs     | The difference between the means     |
@@ -82,8 +78,6 @@ $$
 | 3334 / -3334                                 | 0.000036   |
 
 
-
-
 # Results for asymmetry
 To answer the other two questions, we must look at the symmetry for each of the bacterial strains.
 To do so, I will be using the z-score, which has the following formula:
@@ -91,8 +85,6 @@ To do so, I will be using the z-score, which has the following formula:
 $$
 z = \frac{\text{mean}_1 - \text{mean}_2}{\sqrt{\text{std}_1^2 + \text{std}_2^2}}
 $$
-
-
 
 | Bacteria ID pairs | z-score    | Asymmetry?   |
 | :-----: | :---: | :---: |
@@ -106,7 +98,6 @@ $$
 The z-score looks at whether the difference measured is bigger than the noise produced.
 If there were no asymmetry, the means would be equal.
  
-
 The two pairs showing asymmetry were 2212/-2212 and 3122/-3122, and as seen, they have very high z-scores in comparison to the others. The low scores show that they are not statistically significant and are considered symmetric.
 
 ## Calculating based on 3 sigma 
@@ -122,12 +113,16 @@ Here is the table including all the bacterial strain pairs, their differences, t
 | 3312 / −3312 | 0 | 0.0004922 | 0.001477 | 0.000 | Within 3σ |
 | 3334 / −3334 | 0.000040 | 0.00006572 | 0.0001972 | 0.00004| Within 3σ |
 
-Explanation of working out for pair 211/-211
+### Working out example
+Explanation of working out for pair 211/-211:
+
+$$
 211 -> 19.954 +/- 0.0327
 -211 -> 19.923 +/- 0.0319
-
+$$
+$$
 Difference = 19.954-19.923 = 0.031
-
+$$
 σ= sqrt(0.0327^2 + 0.0319^2)
 σ = 0.04583
 
