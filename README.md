@@ -184,12 +184,12 @@ $$
 \frac{dN}{dP} = \frac{N}{\text{width} \times \text{event}}
 $$
 
+Then the mean per bin and uncertainty was calculated fro each dataset, which represented the subsamples. 
+The results were then plotted into two graphs for each pair. The first graph showed the bacteria per unit momentum, where dN/dP was on the y-axis, and the momentum was on the x-axis.
 
+## Results for each bacteria pair
+### 211/-211
 
-
-To visualize the results, each bacterial pair was plotted in two graphs. 
-The first graph expressing the __, whilst the second one plots_
-To read the results:
-
+### 211/-211
 
 
