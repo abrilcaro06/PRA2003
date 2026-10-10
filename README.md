@@ -9,11 +9,12 @@ Abril Caro Picas - i6375969
 
 3. Is there any asymmetry as a function of their momentum?
 
+## Data set description
+- There are 10 separate files, all containing around 500k events
+- Each file is named output-Set#.txt
+- The files contain different bacterial strains, with the IDs being expressed in the last column
+- Each event is labeled by a header, where the first value is the event number, and the second value is the number of bacteria under that event
 
-# Code installation
-To analyze the data, we are using 10 separate files that include data for the bacterial strains. All of these files were downloaded to be ready for use. 
-
-Each file contains 4 columns, in which the last column states the bacteria ID. For this analysis, the bacteria that are going to be focused on are: 
 
 | Bacteria name                               | ID      |
 | ------------------------------------------  | ------- |
@@ -25,22 +26,27 @@ Each file contains 4 columns, in which the last column states the bacteria ID. F
 | Pseudomonas aeruginosa antibiotic-resistant | -2212   |
 | Streptococcus pneumoniaet                   | 3122    |
 |Capsule-deficient streptococcus pneumoniae   | -3122   |
+| Mycobacterium tubercolosis                  | 3312    |
+| Drug-resistant Mycobacterium tuberculosis   | -3312   |
 | Salmonella enteric                          | 3334    |
 | Salmonella mutant                           | -3334   |
 
-Once the data is processed, the code will give values for the total events processed, bacteria with IDs that do not match the 12 strains and are therefore ignored, and the invalid data lines. 
 
-Out of the data that is processed, the code organizes the values to show the total count, averages, and uncertainties of the bacteria in each specific strain.
+# Week 3 - Code installation
+The code that was used to analyze all of the output sets was done in R, and is visible in the repository as "Deliverable3.R". 
 
-The code is then run for the 10 different output sets to give averages and uncertainty values for each bacteria ID, for each set. All of these were then gathered and averaged once more to give the output of one average and one uncertainty per bacterial strain.
+To analyze the data, all of the 10 files were downloaded to be ready for use. The code processes each file individually and reads all the 500k events. It reads through the bacteria and gives values for the total events processed. The data is then organized to show the total count, averages, and uncertainties of the bacteria in each specific strain.
 
-## Code used
-The code that was used to analyze all of the output sets is shown in the repository as "Deliverable3.R". 
-The file name was switched in the code when doing separate files, and then re-run for each of the 10 data sets.
-Once the values were gathered, I manually added them into a Google Sheet so I could visualize the results in tables. 
+The bacteria with IDs that do not match the 12 strains were ignored, along with the invalid data lines. 
 
-# Results of averages and uncertainties
+# Week 4 - Data analysis
+When collecting the results for data analysis, the "Deliverable3.R" code was run through every separate output file.
+Each file was then used as a different subsample group, meaning that there were 10 total subgroups for the analysis.
+Each code was run individually to give the output values for the averages and uncertainty values for each bacteria ID in each set. All of these were then gathered and averaged once more to result in one average and one uncertainty per bacterial strain.
+
+## Results of averages and uncertainties
 For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the third decimal place, except for the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
+However, it is important to note that the full numbers were used for the continuation of the data analyis and the rounding was just done to present the data in a more concise form.  
 
 | Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
 | :-----: | :---: | :---: | :---: |
@@ -59,8 +65,9 @@ For each of the data sets, the uncertainties were written down. The values for t
 
 When comparing the values for the bacterial strains that are wild type versus mutant, it shows that the total average and uncertainty are very similar. The weighted mean only differs from the original mean if the uncertainties vary greatly; therefore, the original mean is displayed in the table above.
 
-
 The difference of the averages between the different strands was then calculated.
+\[Wild type - Mutant strain]\
+
 
 | Bacteria pairs     | The difference between the means     |
 | -------------------------------------------- | ---------- |
