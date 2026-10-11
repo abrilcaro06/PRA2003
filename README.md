@@ -173,7 +173,7 @@ $$
 The bins would then have to be calculated for each specific pair. To correct the bin widths, the data had to be converted from frequency to density.
 
 $$
-density = \frequency/bin width
+density = frequency/bin width
 $$
 
 The size of the bins was also related to the amount of bacteria in that bin. The more bacteria that was present meant that the bin would be narrower, whilst vise versa for fewer bacteria.
@@ -187,12 +187,62 @@ $$
 \frac{dN}{dP} = \frac{N}{\text{width} \times \text{event}}
 $$
 
-Then the mean per bin and uncertainty was calculated fro each dataset, which represented the subsamples. 
-The results were then plotted into two graphs for each pair. The first graph showed the bacteria per unit momentum, where dN/dP was on the y-axis, and the momentum was on the x-axis.
+Then the mean per bin and uncertainty was calculated for each dataset, which represented the subsamples. 
+The results were then plotted into two graphs for each pair. 
 
-## Results for each bacteria pair
+## Results for each bacteria pair showing bacteria per unit momentum
+### How to read plots:
+The first graph shows the number of bacteria per unit momentum, where dN/dP was on the y-axis, and the momentum was on the x-axis.
+The horizontal lines at each point express the bin width, whilst the vertical lines are the error bars. 
+
+
 ### 211/-211
 
+### 321/-321
+
+### 2212/-2212
+
+<img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/705684ba-4b2e-4645-b89b-0161c538d6e7" />
+
+
+
+### 3122/-3122
+
+### 3312/-3312
+
+<img width="950" height="600" alt="PRA2003_asymmetry_3312_M tuberculosis" src="https://github.com/user-attachments/assets/264a8530-5e09-454f-add2-878fd2c5fce1" />
+
+
+
+### 3334/-3334
+
+
+## Results for each bacteria pair showing asymmetry versus momentum 
+### How to read plots:
+The second graph shows whether the wild type (WT) and mutant differ at specific momentum. The axis are asymmetry (based on the previous formula) on the y-axis, and momentum on the x-axis. 
+
+Here, the pink line represents the asymmetry value. Additionally, if the wild type is greater than the mutant at every momentum, the points will show up above 0. 
+The gray area shows the overflow bins. 
+
+If the pink band overlaps with the red line, it is not asymmetric. 
+
+
 ### 211/-211
 
+### 321/-321
 
+### 2212/-2212
+
+<img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/1f40b36d-9e11-4e06-a32a-e99d324e11f6" />
+
+
+### 3122/-3122
+
+
+
+### 3312/-3312
+
+<img width="950" height="600" alt="PRA2003_dNdP_3312_M tuberculosis" src="https://github.com/user-attachments/assets/67f2320c-154b-477b-99a4-52b77b937357" />
+
+
+### 3334/-3334
