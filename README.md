@@ -24,7 +24,7 @@ Abril Caro Picas - i6375969
 | Bacillus subtilis mutant                    | -321    |
 | Pseudomonas aeruginosa WT                   | 2212    |
 | Pseudomonas aeruginosa antibiotic-resistant | -2212   |
-| Streptococcus pneumoniaet                   | 3122    |
+| Streptococcus pneumoniae                   | 3122    |
 |Capsule-deficient streptococcus pneumoniae   | -3122   |
 | Mycobacterium tubercolosis                  | 3312    |
 | Drug-resistant Mycobacterium tuberculosis   | -3312   |
@@ -177,8 +177,11 @@ density = \frequency/bin width
 $$
 
 The size of the bins was also related to the amount of bacteria in that bin. The more bacteria that was present meant that the bin would be narrower, whilst vise versa for fewer bacteria.
-The same asymmetry formula was used, whilst __ was also calculated.
+The same asymmetry formula was used, whilst dN/dP was also calculated.
 
+$$
+A = \frac{N(\text{WT}) - N(\text{mutant})}{N(\text{WT}) + N(\text{mutant})}
+$$
 
 $$
 \frac{dN}{dP} = \frac{N}{\text{width} \times \text{event}}
