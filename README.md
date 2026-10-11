@@ -204,6 +204,8 @@ The horizontal lines at each point express the bin width, whilst the vertical li
 
 <img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/705684ba-4b2e-4645-b89b-0161c538d6e7" />
 
+- peak dN/dP at 0.22
+- larger error bars, between 2.5-4 show that subsample 10 has different momentum distribution
 
 
 ### 3122/-3122
@@ -212,7 +214,7 @@ The horizontal lines at each point express the bin width, whilst the vertical li
 
 <img width="950" height="600" alt="PRA2003_asymmetry_3312_M tuberculosis" src="https://github.com/user-attachments/assets/264a8530-5e09-454f-add2-878fd2c5fce1" />
 
-
+-Peak dN/dP at 0.0055
 
 ### 3334/-3334
 
@@ -235,6 +237,8 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 <img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/1f40b36d-9e11-4e06-a32a-e99d324e11f6" />
 
+- The WT is greater than mutant at every momentum (points above 0)
+- Shows asymmetry 
 
 ### 3122/-3122
 
@@ -244,5 +248,7 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 <img width="950" height="600" alt="PRA2003_dNdP_3312_M tuberculosis" src="https://github.com/user-attachments/assets/67f2320c-154b-477b-99a4-52b77b937357" />
 
+- The pink band at 0.0056 +/- 0.0062, slightly below 3 sigma
+- The pink band overlaps with the red line, so it is not asymmetric
 
 ### 3334/-3334
