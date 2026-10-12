@@ -203,7 +203,9 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 <img width="950" height="600" alt="dN:dP 321" src="https://github.com/user-attachments/assets/ea9c63d5-3a25-478f-8a4e-406a77e61387" />
 
--
+- peak dN/dP at around 0.67
+- the WT and mutant overlap at every bin
+- larger error bars at lower momentum likely from subsample 10 distribution  
 
 
 
@@ -242,7 +244,8 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 <img width="950" height="600" alt="asymmetry321" src="https://github.com/user-attachments/assets/54b812bd-c866-4fc6-99a4-c43127f091c8" />
 
--
+- Asymnetry is 0.0011 +/- 0.0007
+- This is below the threshold, meaning that it is symmetrical
 
 
 ### 2212/-2212
