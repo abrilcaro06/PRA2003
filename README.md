@@ -194,11 +194,18 @@ The results were then plotted into two graphs for each pair.
 ### How to read plots:
 The first graph shows the number of bacteria per unit momentum, where dN/dP was on the y-axis, and the momentum was on the x-axis.
 The horizontal lines at each point express the bin width, whilst the vertical lines are the error bars. 
+Each bin width is altered based on the number of bacteria in each bin; if the error bars are too big, then widen the bins. 
 
 
 ### 211/-211
 
 ### 321/-321
+
+<img width="950" height="600" alt="dN:dP 321" src="https://github.com/user-attachments/assets/ea9c63d5-3a25-478f-8a4e-406a77e61387" />
+
+-
+
+
 
 ### 2212/-2212
 
@@ -233,6 +240,11 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 ### 321/-321
 
+<img width="950" height="600" alt="asymmetry321" src="https://github.com/user-attachments/assets/54b812bd-c866-4fc6-99a4-c43127f091c8" />
+
+-
+
+
 ### 2212/-2212
 
 <img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/1f40b36d-9e11-4e06-a32a-e99d324e11f6" />
@@ -246,7 +258,7 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 ### 3312/-3312
 
-<img width="950" height="600" alt="PRA2003_dNdP_3312_M tuberculosis" src="https://github.com/user-attachments/assets/67f2320c-154b-477b-99a4-52b77b937357" />
+<img width="950" height="600" alt="PRA2003_asymmetry_3312_M tuberculosis" src="https://github.com/user-attachments/assets/5ff54379-62b9-4df6-8b43-c101b5bf3e7a" />
 
 - The pink band at 0.0056 +/- 0.0062, slightly below 3 sigma
 - The pink band overlaps with the red line, so it is not asymmetric
