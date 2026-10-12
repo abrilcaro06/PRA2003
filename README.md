@@ -202,7 +202,7 @@ The horizontal lines at each point express the bin width, whilst the vertical li
 
 ### 2212/-2212
 
-<img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/705684ba-4b2e-4645-b89b-0161c538d6e7" />
+<img width="1710" height="1033" alt="PRA2003_dNdP_2212_P aeruginosa" src="https://github.com/user-attachments/assets/5bf5c424-d770-44ca-a213-6d7fe4576f85" />
 
 - peak dN/dP at 0.22
 - larger error bars, between 2.5-4 show that subsample 10 has different momentum distribution
@@ -212,7 +212,7 @@ The horizontal lines at each point express the bin width, whilst the vertical li
 
 ### 3312/-3312
 
-<img width="950" height="600" alt="PRA2003_asymmetry_3312_M tuberculosis" src="https://github.com/user-attachments/assets/264a8530-5e09-454f-add2-878fd2c5fce1" />
+<img width="950" height="600" alt="PRA2003_dNdP_3312_M tuberculosis" src="https://github.com/user-attachments/assets/13afdc55-1b4c-4add-9e4b-a27b397240d0" />
 
 -Peak dN/dP at 0.0055
 
