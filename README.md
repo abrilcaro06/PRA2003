@@ -293,7 +293,7 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 <img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/1f40b36d-9e11-4e06-a32a-e99d324e11f6" />
 
-- The WT is greater than mutant at every momentum (points above 0)
+- The WT is greater than the mutant at every momentum (points above 0)
 - Shows asymmetry 
 
 ### 3122/-3122
@@ -308,7 +308,7 @@ If the pink band overlaps with the red line, it is not asymmetric.
 <img width="950" height="600" alt="PRA2003_asymmetry_3312_M tuberculosis" src="https://github.com/user-attachments/assets/5ff54379-62b9-4df6-8b43-c101b5bf3e7a" />
 
 - The pink band at 0.0056 +/- 0.0062, slightly below 3 sigma
-- The pink band overlaps with the red line, so it is not asymmetric
+- The pink band overlaps with the red line, so it is symmetric
 
 ### 3334/-3334
 
