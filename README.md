@@ -218,8 +218,11 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 ### 211/-211
 
-<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/95d00c54-dcc1-4dde-a82d-77f02ca3f367" />
+<img width="1507" height="839" alt="Screenshot 2026-10-13 at 7 31 34 PM" src="https://github.com/user-attachments/assets/c328a6bf-ceec-4172-b00f-a4840ac57b42" />
 
+- There is a steep decline with momentum
+- Overlap between WT and mutant in every bin
+- Error bars are largest at the lower momentum (bin 3-4)
 
 ### 321/-321
 
@@ -272,9 +275,11 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 ### 211/-211
 
-<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/516ef551-eb2c-4f64-8775-1c5d064c7de0" />
+<img width="1509" height="839" alt="Screenshot 2026-10-13 at 7 31 42 PM" src="https://github.com/user-attachments/assets/71292807-9b1f-4eb6-aa18-8d71b67dbf57" />
 
-- A = 0.0008 +/- 0.0000
+-Assymetry is 0.0008 +/- 0.0001
+-Asymmetry rises with momentum
+-Pink line above the red, so it's symmetrical
 
 ### 321/-321
 
@@ -296,7 +301,7 @@ If the pink band overlaps with the red line, it is not asymmetric.
 <img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/e53c9f41-207b-4b0b-8b53-2f6f3e4df6d9" />
 
 - The pink band at A = 0.00894 +/- 0.00106
-- The pink band does not overlap with red line, so it is asymmetrict
+- The pink band does not overlap with the red line, so it is asymmetric
 
 ### 3312/-3312
 
