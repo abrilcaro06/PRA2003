@@ -239,9 +239,6 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 <img width="892" height="602" alt="Screenshot 2026-10-12 at 19 26 35" src="https://github.com/user-attachments/assets/6e74af31-3db4-4459-84b3-d68cf6a6c3ef" />
 
-- <img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/c82e101e-f491-4ff1-8523-6d1f2ef9fe30" />
-<img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/40a2e699-6a4d-47e9-b554-a3e0798b15cd" />
-
 
 ### 3312/-3312
 
