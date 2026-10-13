@@ -230,15 +230,15 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 - peak dN/dP at around 0.67
 - the WT and mutant overlap at every bin
-- larger error bars at lower momentum likely from subsample 10 distribution  
+- larger error bars at lower momentum likely from subsample 10 distribution 
 
 
 ### 2212/-2212
 
 <img width="1710" height="1033" alt="PRA2003_dNdP_2212_P aeruginosa" src="https://github.com/user-attachments/assets/5bf5c424-d770-44ca-a213-6d7fe4576f85" />
 
--peak dN/dP at 0.22
--larger error bars, between 2.5-4 show that subsample 10 has different momentum distribution
+- peak dN/dP at 0.22
+- larger error bars, between 2.5-4 show that subsample 10 has different momentum distribution
 
 
 ### 3122/-3122
@@ -254,7 +254,7 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 <img width="950" height="600" alt="PRA2003_dNdP_3312_M tuberculosis" src="https://github.com/user-attachments/assets/13afdc55-1b4c-4add-9e4b-a27b397240d0" />
 
--Peak dN/dP at 0.0055
+- peak dN/dP at 0.0055
 
 ### 3334/-3334
 
@@ -270,16 +270,17 @@ The second graph shows whether the wild type (WT) and mutant differ at specific 
 Here, the pink line represents the asymmetry value. Additionally, if the wild type is greater than the mutant at every momentum, the points will show up above 0. 
 The gray area shows the overflow bins. 
 
-If the pink band overlaps with the red line, it is not asymmetric. 
+If the pink band overlaps with the red line, it is not asymmetric. However, the error bars must also be taken into consideration with their overlap with the pink and red bands.
 
 
 ### 211/-211
 
 <img width="1509" height="839" alt="Screenshot 2026-10-13 at 7 31 42 PM" src="https://github.com/user-attachments/assets/71292807-9b1f-4eb6-aa18-8d71b67dbf57" />
 
--Assymetry is 0.0008 +/- 0.0001
--Asymmetry rises with momentum
--Pink line above the red, so it's symmetrical
+- Assymetry is 0.0008 +/- 0.0001
+- Asymmetry rises with momentum
+- Pink line above the red, so it's symmetrical
+- SD is over zero
 
 ### 321/-321
 
@@ -287,6 +288,8 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 - Asymnetry is 0.0011 +/- 0.0007
 - This is below the threshold, meaning that it is symmetrical
+- However, note that the pink line and red line are very close to one another
+- SD is over zero
 
 
 ### 2212/-2212
@@ -294,7 +297,7 @@ If the pink band overlaps with the red line, it is not asymmetric.
 <img width="1710" height="1033" alt="PRA2003_asymmetry_2212_P aeruginosa" src="https://github.com/user-attachments/assets/1f40b36d-9e11-4e06-a32a-e99d324e11f6" />
 
 - The WT is greater than the mutant at every momentum (points above 0)
-- Shows asymmetry 
+- Shows asymmetry
 
 ### 3122/-3122
 
