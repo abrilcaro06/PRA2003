@@ -1,3 +1,4 @@
+<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/ab0da32f-fd9c-4eac-9ceb-88743f7990b9" />
 # PRA2003 - Monitoring bacterial movement and populations 
 Abril Caro Picas - i6375969
 
@@ -217,6 +218,10 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 ### 211/-211
 
+<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/95d00c54-dcc1-4dde-a82d-77f02ca3f367" />
+<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/060fb4f5-96d4-4f9e-b8ca-d83b8c86b43e" />
+
+
 ### 321/-321
 
 <img width="950" height="600" alt="dN:dP 321" src="https://github.com/user-attachments/assets/ea9c63d5-3a25-478f-8a4e-406a77e61387" />
@@ -267,6 +272,10 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 
 ### 211/-211
+
+<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/516ef551-eb2c-4f64-8775-1c5d064c7de0" />
+
+- A = 0.0008 +/- 0.0000
 
 ### 321/-321
 
