@@ -94,7 +94,7 @@ This asymmetry value can then be divided by the standard deviation to find the n
 
 <img width="589" height="372" alt="Screenshot 2026-10-10 at 11 49 25 AM" src="https://github.com/user-attachments/assets/8a6448fb-bc3a-4d92-8ab2-0fe6aa3fedfe" />
 
-_Figure 1: Table including average count, standard deviation and uncertainty results for each strain_  
+_Figure 1: Table including average count, standard deviation, and uncertainty results for each strain_  
 
 The results were then further analyzed to give the difference value, the asymmetry, the significance with regard to sigma, and whether they were asymmetric or symmetric.
 
@@ -238,7 +238,7 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 <img width="1710" height="1033" alt="PRA2003_dNdP_2212_P aeruginosa" src="https://github.com/user-attachments/assets/5bf5c424-d770-44ca-a213-6d7fe4576f85" />
 
 - peak dN/dP at 0.22
-- larger error bars, between 2.5-4 show that subsample 10 has different momentum distribution
+- larger error bars, between 2.5-4 show that subsample 10 has a different momentum distribution
 
 
 ### 3122/-3122
