@@ -1,4 +1,4 @@
-<img width="950" height="600" alt="PHOTO-2026-10-13-13-31-59" src="https://github.com/user-attachments/assets/ab0da32f-fd9c-4eac-9ceb-88743f7990b9" />
+
 # PRA2003 - Monitoring bacterial movement and populations 
 Abril Caro Picas - i6375969
 
