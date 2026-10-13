@@ -320,3 +320,9 @@ If the pink band overlaps with the red line, it is not asymmetric. However, the 
 - The pink band at 0.0152 +/- 0.0293
 - The pink band at overlaps with the red line, so it is symmetric
 
+
+# Conclusion
+
+Overall, the 12 different bacteria IDs were analyzed, with their average counts and uncertainty being counted, and each bacteria pair being plotted in graphs demonstrating the asymmetry between the normal and the mutant strain as well as the asymmetry with regard to the function of momentum. The average counts for each event fall between a maximum of 19.95 +/- 0.03 (from E.coli WT) to counts as low as 0.0012 +/- 0.00004 (Salmonella WT). The asymmetry was investigated, finding only ID pairs 2212/-2212, and 3122/-3122 to be asymmetric, whilst the momentum-binned results matched these as well. 
+
+
