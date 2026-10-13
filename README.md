@@ -185,13 +185,13 @@ $$
 
 ##### Specific bins per ID pair
 
-| Bacteria pairs     | The difference between the means     |
+| Bacteria pairs     | Specific bin values     |
 | -------------------------------------------- | ---------- |
 | 211 / -211                                   | 0.032296   |
 | 321 / -321                                   | bins=np.array([0, 0.5, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 16, 24, 40   |
-| 2212 / -2212                                 | 0.023873   |
+| 2212 / -2212                                 | bins=np.array[0, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 16])  |
 | 3122 / -3122                                 | 0.004563   |
-| 3312 / -3312                                 | 0.000441   |
+| 3312 / -3312                                 |  bins=np.array[0, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 16])   |
 | 3334 / -3334                                 | 0.000036   |
 
 ### Further calculations
@@ -226,7 +226,6 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 - larger error bars at lower momentum likely from subsample 10 distribution  
 
 
-
 ### 2212/-2212
 
 <img width="1710" height="1033" alt="PRA2003_dNdP_2212_P aeruginosa" src="https://github.com/user-attachments/assets/5bf5c424-d770-44ca-a213-6d7fe4576f85" />
@@ -239,6 +238,10 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 <img width="892" height="602" alt="Screenshot 2026-10-12 at 19 26 35" src="https://github.com/user-attachments/assets/6e74af31-3db4-4459-84b3-d68cf6a6c3ef" />
 
+- peak dN/dP is around 4.7 x 10^-2
+- The dN/dP decreases with increasing momentum for the WT and mutant
+- Error bars are large in some bins, indicating variability between subsamples
+
 
 ### 3312/-3312
 
@@ -248,6 +251,10 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 ### 3334/-3334
 
+<img width="1120" height="679" alt="Screenshot 2026-10-13 at 17 25 14" src="https://github.com/user-attachments/assets/b54e2e9f-dea5-494f-ba1a-e071bb32a88a" />
+
+- Both strains peak at a low momentum and fall steadily
+- The error bars are very similar, and large uncertainty at bins 3-5
 
 ## Results for each bacteria pair showing asymmetry versus momentum 
 ### How to read plots:
@@ -291,3 +298,9 @@ If the pink band overlaps with the red line, it is not asymmetric.
 - The pink band overlaps with the red line, so it is not asymmetric
 
 ### 3334/-3334
+
+<img width="1170" height="675" alt="Screenshot 2026-10-13 at 17 25 32" src="https://github.com/user-attachments/assets/eca40455-b1fa-4c23-b233-1e178ce60431" />
+
+- The pink band at 0.0152 +/- 0.0293
+- The pink band at overlaps with the red line, so it is symmetric
+
