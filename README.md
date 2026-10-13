@@ -33,7 +33,7 @@ Abril Caro Picas - i6375969
 
 
 # Week 3 - Code installation
-The code that was used to analyze all of the output sets was done in R, and is visible in the repository as "Deliverable3.R". 
+The code that was used to analyze all of the output sets was done in R, and is visible in the repository as **"Deliverable3.R"**.  
 
 To analyze the data, all of the 10 files were downloaded to be ready for use. The code processes each file individually and reads all the 500k events. It reads through the bacteria and gives values for the total events processed. The data is then organized to show the total count, averages, and uncertainties of the bacteria in each specific strain.
 
@@ -46,7 +46,7 @@ Each code was run individually to give the output values for the averages and un
 
 ## Results of averages and uncertainties
 For each of the data sets, the uncertainties were written down. The values for the total average were rounded to the third decimal place, except for the values for bacteria ID 3334 and -3334, as those values are too small to round and would give a value of 0.
-However, it is important to note that the full numbers were used for the continuation of the data analyis and the rounding was just done to present the data in a more concise form.  
+However, it is important to note that the full numbers were used for the continuation of the data analysis, and the rounding was just done to present the data in a more concise form.  
 
 | Bacteria ID |  Total count   | Total Average   |Total uncertainty   |
 | :-----: | :---: | :---: | :---: |
@@ -162,22 +162,29 @@ $$
 Comparing $0.031 < 0.13704$, the difference is **within the threshold** (not statistically significant at the $3\sigma$ level).
 
 # Plotting of each bacterial strain pair - Week 6 
-To answer the third question of identifying whether the strains had asymmetry as a function of momentum, multiple calculations and visualizations had to be done. 
+To answer the third question of identifying whether the strains had asymmetry as a function of momentum, multiple calculations and visualizations had to be done.
 
-Initially, all of the momenta had to be calculated. Each of the output sets that we were given contained lines that hold values for px, py, pz, and the ID numbers. 
+Code of named **Part1Deliverable6.R** reads all the data sets and calculates the momentum using the functions below. Each of the output sets that we were given contained lines that hold values for px, py, pz, and the ID numbers. 
 
 $$
 p = \sqrt{p_x^2 + p_y^2 + p_z^2}
 $$
 
-The bins would then have to be calculated for each specific pair. To correct the bin widths, the data had to be converted from frequency to density.
+The code then adds the information into a CSV file, reading from output-Set# into momenta-Set#.csv. 
+
+Then a separate code was created labeled **"Part2Deliverable6.py** in this code, it asks the user for which ID they want to look at; it then sorts it into bins. It prints the results and saves them as asymmetry(ID).csv files, where it also codes for two graphs. One with the dN/dP vs momentum and the other one graphing the asymmetry versus momentum of each pair. 
+
+### Calculating the bins
+Each bacterial pair has different momentum ranges and shapes so the bin arrays must be changed in each. The size of the bins is impacted by the amount of bacteria in that bin. The more bacteria that were present meant that the bin would be narrower, whilst vise versa for fewer bacteria. Therefore, each bin must have enough bacteria; otherwise, there might be too much noise or incorrect error bars. 
+
+Additionally, a calculation was done to correct for bin widths for the dN/dP. This was done by converting the data from frequency to density. This was important so the bins could be compared with one another. 
 
 $$
 density = frequency/bin width
 $$
 
-The size of the bins was also related to the amount of bacteria in that bin. The more bacteria that was present meant that the bin would be narrower, whilst vise versa for fewer bacteria.
-The same asymmetry formula was used, whilst dN/dP was also calculated.
+### Further calculations
+The initial asymmetry formula was used again, and dN/dP was also calculated.
 
 $$
 A = \frac{N(\text{WT}) - N(\text{mutant})}{N(\text{WT}) + N(\text{mutant})}
@@ -187,7 +194,7 @@ $$
 \frac{dN}{dP} = \frac{N}{\text{width} \times \text{event}}
 $$
 
-Then the mean per bin and uncertainty was calculated for each dataset, which represented the subsamples. 
+Then the mean per bin and uncertainty were calculated for each dataset, which represented the subsamples. 
 The results were then plotted into two graphs for each pair. 
 
 ## Results for each bacteria pair showing bacteria per unit momentum
