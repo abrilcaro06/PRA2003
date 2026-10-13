@@ -183,6 +183,17 @@ $$
 density = frequency/bin width
 $$
 
+##### Specific bins per ID pair
+
+| Bacteria pairs     | The difference between the means     |
+| -------------------------------------------- | ---------- |
+| 211 / -211                                   | 0.032296   |
+| 321 / -321                                   | bins=np.array([0, 0.5, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 16, 24, 40   |
+| 2212 / -2212                                 | 0.023873   |
+| 3122 / -3122                                 | 0.004563   |
+| 3312 / -3312                                 | 0.000441   |
+| 3334 / -3334                                 | 0.000036   |
+
 ### Further calculations
 The initial asymmetry formula was used again, and dN/dP was also calculated.
 
@@ -226,6 +237,12 @@ Each bin width is altered based on the number of bacteria in each bin; if the er
 
 ### 3122/-3122
 
+<img width="892" height="602" alt="Screenshot 2026-10-12 at 19 26 35" src="https://github.com/user-attachments/assets/6e74af31-3db4-4459-84b3-d68cf6a6c3ef" />
+
+- <img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/c82e101e-f491-4ff1-8523-6d1f2ef9fe30" />
+<img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/40a2e699-6a4d-47e9-b554-a3e0798b15cd" />
+
+
 ### 3312/-3312
 
 <img width="950" height="600" alt="PRA2003_dNdP_3312_M tuberculosis" src="https://github.com/user-attachments/assets/13afdc55-1b4c-4add-9e4b-a27b397240d0" />
@@ -264,7 +281,10 @@ If the pink band overlaps with the red line, it is not asymmetric.
 
 ### 3122/-3122
 
+<img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/e53c9f41-207b-4b0b-8b53-2f6f3e4df6d9" />
 
+- The pink band at A = 0.00894 +/- 0.00106
+- The pink band does not overlap with red line, so it is asymmetrict
 
 ### 3312/-3312
 
